@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel">
+        <!-- Images -->
+        <div class="carousel_item carousel_item--visible"><img src="images/Kirk Whalum.jpg" alt=""></div>
+        <div class="carousel_item"><img src="images/Gerald Albright.jpg" alt=""></div>
+        <div class="carousel_item"><img src="images/Chirs Potter.jpg" alt=""></div>
+        <div class="carousel_item"><img src="images/Chad LB.jpeg" alt=""></div>
+        <div class="carousel_item"><img src="images/Kenny G.webp" alt=""></div>
+        <div class="carousel_item"><img src="images/Charlie Parker.png" alt=""></div>
+
+        <!-- Buttons -->
+        <div class="carousel_actions">
+            <button id="carousel_button--prev" aria-label="Previous slide"><</button>
+            <button id="carousel_button--next" aria-label="Next slide">></button>
+        </div>
+        <div class="carousel_nav">
+            <button class="carousel_indicator current-slide"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div>
+
+    <script src="carousel.js"></script>
+</body>
+</html>
