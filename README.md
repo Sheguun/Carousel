@@ -1,6 +1,6 @@
 Carousel/Slideshow
 
-view page here: https://sheguun.github.io/Carousel/
+view page here:https://sheguun.github.io/Carousel/
 
 Create a Carousel/Slideshow with 6 different images of  your choice. Ensure the following:
 The images are properly styled.
